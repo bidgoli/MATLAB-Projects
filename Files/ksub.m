@@ -2,7 +2,7 @@ function res=ksub(N,c,steps)
 
     % c is the beginning vector, starts with [0,1,2,...,k-1]
     % steps is the length of the chunck in each iteration
-    
+    % github.com/bidgoli
 
     t=size(c,2);
     c=[c, N,0];
